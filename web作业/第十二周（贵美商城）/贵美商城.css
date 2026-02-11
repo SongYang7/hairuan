@@ -1,0 +1,142 @@
+*{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+#head{
+    height: 139px;
+    width: 980px;
+    background-image: url(./images/h_bg.jpg);
+    margin: 0 auto;
+    background-position: -22px 0px;
+}
+#logo{
+    width: 280px;
+    height: 98px;
+    float: left;
+}
+#caidan{
+    width: 400px;
+    height: 39px;
+    padding-top: 10px;
+    float:right;
+    box-sizing: border-box;
+}
+#caidan ul li{float: left; font-size: 12px; height: 25px; line-height: 25px;}
+.tu1{background-image: url(./images/icon.gif); width: 30px; height: 25px;}
+.tu2{background-position: -40px 0px;}
+.tu3{background-position: -80px 0px;}
+.tu4{background-position: -120px 0px;}
+.anniu{
+    background-image: url(./images/icon.gif);
+    width: 45px;
+    height: 26px;
+    background-position: 0px -25px;
+    text-align: center;
+}
+#hello{
+    width: 400px;
+    height: 33px;
+    box-sizing: border-box;
+    float: right;
+    margin-top: 35px;
+    font-size: 10px;
+}
+#daohang{
+    width: 100%;
+    height: 36px;
+    box-sizing: border-box;
+    clear: both;
+    
+}
+#daohang ul li{
+    float:left;
+    width: 84px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: -10px;
+}
+#daohang a:link,#daohang a:visited{color: black;}
+#daohang a:hover{background-image: url(./images/nav_bg.gif);}
+#main{
+    width: 980px;
+    height: 550px;
+    margin: 0 auto;
+}
+#left{
+    width: 183px;
+    height: 550px;
+    background-image: url(./images/customer.jpg);
+    padding-top: 180px;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+#left a{
+    width: 158px;
+    height: 31px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+#left a:hover{height: auto;}
+#right{
+    width: 797px;
+    height: 550px;
+    float: left;
+    border: 1px solid red;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#reg,#buy,#sale{
+    width: 795px;
+    height: 548px;   
+}
+h1{
+    margin: 25px 25px;
+}
+.c1{
+    border: 3px solid #ffd0d0;
+    width: 520px;
+}
+.c2{
+    border: 1px solid #ff7272;
+    width: 520px;
+}
+p,#reg img{
+    margin: 10px 25px;
+}
+#reg ul{
+    list-style-type: none; 
+    /*取消默认的项目符号图标 */
+}
+  
+#reg ul li {
+    padding-left: 20px;    
+    /* //设置列表左边间隔以放置图片 */
+    background-image: url(./images/list_icon.gif);  
+    /*为每一个li插入图片 */
+    background-position: 0 0;    
+    /*定位为最左和最上 */
+    background-size:  20px;      
+    /*为图片与li设置0.4rem的间隔 */
+    background-repeat: no-repeat;  
+    /*取消默认的图片复制，就显示一个图标 */
+}
+#buy img{
+    margin: 10px 25px;
+}
+#sale img{
+    margin: 10px 25px;
+} 
+#banquan{
+    margin-top: 10px;
+    background-color: rgb(255, 188, 88); 
+    height: 50px; 
+    width: 980px;
+}
+.banquan1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;  /* 相对定位 */
+    top: 15px;
+}

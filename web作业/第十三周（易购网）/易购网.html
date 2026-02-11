@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>易购网</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        tr,
+        td,
+        th {
+            border: 1px solid rgb(0, 0, 0);
+        }
+
+        .biao1 {
+            width: 1000px;
+            height: 700px;
+            border: 1px solid rgb(0, 0, 0);
+            margin: auto;
+        }
+
+        .hang1 {
+            height: 40px;
+            background-color: rgb(0, 221, 255);
+
+        }
+
+        .hang2 {
+            height: 80px;
+            border: 1px solid rgb(0, 0, 0);
+            background-color: aquamarine;
+            margin: 10px 10px;
+        }
+
+        .lie1 {
+            width: 200px;
+            border: 1px solid rgb(0, 0, 0);
+        }
+
+        ul {
+            margin-left: 70px;
+        }
+
+        .hang2 td p {
+            color: rgb(0, 140, 255);
+            text-align: center;
+        }
+
+        .hang4 {
+            height: 300px;
+            background-color: rgb(255, 179, 0);
+        }
+
+        .biao2 {
+            width: 80%;
+            height: 90%;
+            border: 1px solid rgb(0, 0, 0);
+            margin-left: 80px;
+        }
+
+        .lie2 {
+            background-color: aquamarine;
+        }
+
+        .biao2 tr {
+            height: 20px;
+        }
+
+        .biao2 tr td {
+            text-align: center;
+        }
+    </style>
+</head>
+<!-- rowspan:行    colspan:列     cellspacing:        cellpadding-->
+
+<body>
+    <h1 style="color: rgb(255, 0, 0); text-align: center; margin:20px 20px;">易购网———购购你的</h1>
+    <hr>
+    <table class="biao1">
+        <tr class="hang1">
+            <th>帮助信息</th>
+            <th>标准快递收费</th>
+        </tr>
+        <tr class="hang2">
+            <td rowspan="2">
+                <p>新手指南</p>
+                <ul>
+                    <li>会员注册</li>
+                    <li>购物流程</li>
+                    <li>订单状态</li>
+                    <li>常见问题</li>
+                    <li>交易条款</li>
+                    <li>会员协议</li>
+                </ul>
+            </td>
+            <td style="width: 800px; margin: 20px 20px;"><span><b>标准快递——</b></span>
+                为了你能快速安全的收到您订购的商品，易购网在确认您的订单后，根据你的收货地址，选择最方便、最安全、最快捷的快递运输公司，其中包括申通快递、圆通快递、中通快递等，默认快递配送公司为申通快递</td>
+        </tr>
+        <tr class="lie2" style="height: 400px;">
+            <td>
+                <table class="biao2">
+                    <tr>
+                        <td>区域划分</td>
+                        <td>包括地区</td>
+                        <td>首要费用</td>
+                        <td>超重费用</td>
+
+                    </tr>
+                    <tr>
+                        
+                        <td>一区</td>
+                        <td>广州同城首页6元</td>
+                        <td style="color: red;">8元</td>
+                        <td>2元/1KG</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">二区</td>
+                        <td>江苏、浙江、上海</td>
+                        <td style="color: red;" rowspan="2">10元</td>
+                        <td>5元/1KG</td>
+                    </tr>
+                    <tr>
+                        <td>江西、湖北、安徽、广西、湖南</td>
+                        <td>6元/1KG</td>
+                    </tr>
+                    <tr>
+                        <td>北京、天津</td>
+                        <td style="color: red;">12元</td>
+                        <td>8元/1KG</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">三区</td>
+                        <td>云南、贵州、四川、河南、山西山东、河北、海南</td>
+                        <td style="color: red;" rowspan="4">15元</td>
+                        <td>8元/1KG</td>
+                    </tr>
+                    <tr>
+                        <td>青海、甘肃、宁夏</td>
+                        <td>10元/1KG</td>
+                    </tr>
+                    <tr>
+                        <td>辽宁、黑龙江、吉林</td>
+                        <td>12元/1KG</td>
+                    </tr>
+                    <tr>
+                        <td>新疆、西藏、内蒙古</td>
+                        <td>15元/1KG</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="hang4">
+            <td>
+                <p style="color: rgb(0, 140, 255); text-align: center;">寄送方式</p>
+                <ul>
+                    <li>上门自提</li>
+                    <li>标准快递</li>
+                    <li>特快快递</li>
+                    <li>EMS易邮宝</li>
+                    <li>宅急送</li>
+                </ul>
+            </td>
+            <td>
+                <h4 style="margin-left: 50px;">服务说明</h4>
+                <p style="margin-left: 50px;">---------------------------------------------------------------------</p>
+                <p style="margin-left: 20px;">1.具体运费价格在您购物时选择 的配送方式后，以易购网站系统计算为准；<br>
+                    2.为了避免你购买的商品延迟送达，请您务必填写详细的收货地址；<br>
+                    3.在您成功提交订单后，易购在确认到款的情况下会尽快安排商品的出库，您可以登陆“我的易购网”的订单管理中进行查询跟踪您的货物情况；<br>
+                    3.您订购的商品没有在规定的时间内送达，您可以进入“我的易购”，选择“订单管理”，根据你的订单号码查询到自己的运单号，然后直接进入相应的快递公司网站，输入运单号，在 线查询配送状况。
+                </p>
+            </td>
+        </tr>
+    </table>
+    <div class="banquan">
+        <p align="center"
+            style="height: 60px; line-height: 60px; color: rgb(0, 0, 0); background-color: bisque; margin-top: 20px;">
+            <em>&copy;版权所有人：<ins>23应用技术206班黄宏浪</em></ins></p>
+    </div>
+</body>
+
+</html>

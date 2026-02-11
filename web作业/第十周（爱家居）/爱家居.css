@@ -1,0 +1,97 @@
+#bg{
+    width: 1200px;
+    height: 617px;
+    background: url(./images/bg.png) no-repeat;
+    margin: 0 auto;
+}
+.nav{
+    width: 850px;
+    height: 50px;
+    background: 0px;
+    margin: 0 auto;
+    padding: 50px 0 0 150px;
+    background: url(./images/logo.png) no-repeat 20PX  30PX;
+}
+.nav span{
+    color: #685649;
+    font-size: 16px;
+    padding: 0 30px;
+}
+.nav .shuru{
+    float: right;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 100px;
+    color: #aaa;
+    font-size: 14px;
+    background: #fff url(./images/f.png) no-repeat 10px center;
+}
+#news{
+    width: 1200px;
+    height: 455px;
+    background: url(./images/dongtai.jpg) center top no-repeat;
+    margin: 18px auto;
+    padding-top: 120px;
+}
+.news_con{
+    float: left;
+    margin-left: 70px;
+}
+.news_con .one{
+    width: 284px;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+}
+.news_con .two{
+    width: 284px;
+    height: 70px;
+    line-height: 20px;
+    padding: 10px 0 0 10px;
+    font-size: 12px;
+    color: #bbb;
+}
+.news_con .shadow{
+    width: 294px;
+    height: 5px;
+    background: url(./images/yinying.jpg) no-repeat;
+}
+#jiegou{
+    width: 1200px;
+    background-image: radial-gradient(ellipse at center,#fff,#d6e4ed);
+    margin: 50px auto;
+    padding-top: 25px;
+}
+.xiari{
+    text-align: center;
+
+}
+#jiegou .pic{
+    width: 1000px;
+    height: 360px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+#jiegou .pic img{
+    margin-left: 45px;
+}
+#footer{
+    width: 1200px;
+    height: 80px;
+    background: url(./images/footer_bg.jpg) repeat-x;
+    text-align: center;
+    color: #2c5dff;
+    line-height: 80px;
+    margin: 0 auto;
+}
+p{
+    color: #fff;
+}
+.tree{
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+}
