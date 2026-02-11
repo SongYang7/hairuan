@@ -1,0 +1,105 @@
+/* 设置头部 */
+.top-title-outer{
+    width: 100%;
+    height: 600px;
+    background-color: #EEEEEE;
+    position: relative;
+    background: #bfa;
+}
+/* 设置滑动效果 */
+.top-title-content {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 1200px;
+    height: 600px;
+    background-image: url(../images/achievement/2.jpg);
+    background-size: cover;
+}
+
+/* 主要内容 */
+.cj{
+    margin-top: 170px;
+}
+.cj1{
+    width: 1130px;
+    height: 314px;
+    color: #333;
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 10px 16px 35px #000;
+    transition: 0.2s;
+}
+.cj1:hover{
+    transform: scale(1.008);
+}
+.tu,img{
+    width: 440px;
+    height: 250px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.tu img:hover{
+    transform: scale(1.1);
+}
+.cj2{
+    height: 314px;
+    width: 633px;
+    font-size: 15px;
+    position: relative;
+}
+.cj3{
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    text-indent: 2em;
+}
+.cj3 a:hover{
+    color: #92191e;
+}
+.sj{
+    position: absolute;
+    top: 55px;
+    right: 0;
+    font-size: 14px;
+    font-weight: bold;
+    width: 120px;
+    height: 26px;
+    border-left: 4px solid #92191e;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    line-height: 26px;
+    transition: 0.2s;
+    cursor: pointer;
+    user-select: none;
+}
+.sj:hover{
+    color: #fff;
+    background-color: #92191e;
+    border-left: 4px solid #0e57a6;
+}
+.wen{
+    margin-top: 65px;
+    text-indent: 2em;
+    font-size: 14px;
+    padding: 3px;
+    letter-spacing: 2px;
+    height: 130px;
+    overflow: hidden;
+}
+.lj{
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.lj a:hover{
+    color: #92191e;
+}
