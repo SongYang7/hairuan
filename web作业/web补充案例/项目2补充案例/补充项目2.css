@@ -1,0 +1,25 @@
+.dinbu{
+    width:980px;
+    margin: auto
+}
+.daohang{
+    height:56px
+}
+.w1{ 
+    width: 980px;
+    height: 300px;
+}
+.w2{
+    text-align: left;
+}
+.w2 .w{
+    margin-top: 5px;
+}
+.tu{
+    text-align: right;
+    position: relative;
+    bottom: 300px;
+}
+.xia{
+    color: rgb(85, 110, 255);
+}

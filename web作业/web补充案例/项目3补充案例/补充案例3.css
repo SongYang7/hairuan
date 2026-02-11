@@ -1,0 +1,40 @@
+body{
+    width: 980px;
+    margin: auto;
+}
+.yuan{
+    font-size: 20px;
+    font-family: "LiSu";
+}
+h5{
+    text-align: center;
+    color: #c05050;
+    position: relative;
+    bottom: 45px;
+}
+h2{
+    text-align: center;
+    color: #c05050;
+    font-family:"LiSu";
+    font-size: 50px;
+}
+.w1{
+    color: #c05050;
+    font-size: 25px;
+}
+.w2{
+    color: #c05050;
+    font-size: 23px;
+
+}
+.banquan{
+    background-color: gray;
+    width: 980px;
+    height: 100px;
+    line-height: 100px;
+}
+.wen{
+    text-indent:40px;
+    font-size: 20px;
+    font-family:"LiSu";
+}
